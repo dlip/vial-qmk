@@ -22,8 +22,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VIAL_UNLOCK_COMBO_ROWS {0, 0}
 #define VIAL_UNLOCK_COMBO_COLS {0, 1}
 
-#define DYNAMIC_KEYMAP_LAYER_COUNT 4
-#define TAPPING_TERM 180
+#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+#define TAPPING_TERM 200
 #define IGNORE_MOD_TAP_INTERRUPT
 
 //#define USE_MATRIX_I2C
@@ -47,5 +47,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
-
+#define ONESHOT_TAP_TOGGLE 2
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
