@@ -6,7 +6,7 @@ RGBLIGHT_ENABLE     = no # 5832 bytes Lights
 OLED_DRIVER_ENABLE  = yes # 5218 bytes LED screen
 OLED_DRIVER         = SSD1306
 QMK_SETTINGS        = no # 2432 bytes + requires mouse keys
-MOUSEKEY_ENABLE     = no # 1462 bytes Mouse keys
+MOUSEKEY_ENABLE     = yes # 1462 bytes Mouse keys
 COMBO_ENABLE        = no # 1030 bytes Combos eg. a + s = esc
 EXTRAKEY_ENABLE     = yes # 406 bytes Media keys
 VIAL_INSECURE       = yes # 374 bytes (yes = off)
