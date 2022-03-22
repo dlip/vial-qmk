@@ -9,3 +9,4 @@ LTO_ENABLE          = yes
 QMK_SETTINGS        = no
 COMBO_ENABLE        = yes
 VIAL_INSECURE       = yes # 374 bytes (yes = off)
+NKRO_ENABLE         = yes
